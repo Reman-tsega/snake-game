@@ -1,0 +1,38 @@
+/* body { */
+
+
+/* } */
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    background-color: #000;
+}
+
+.grid div {
+    width: 60px;
+    height: 60px;
+}
+
+.snake {
+    background-color: rgb(171, 255, 3);
+    border-radius: 30%;
+}
+
+.food {
+    background-color: rgb(126, 11, 11);
+    border-radius: 50%;
+    box-sizing: border-box;
+    border-style: dotted;
+    border-color: antiquewhite;
+}
+
+.tip {
+    background-color: rgb(241, 29, 29);
+    border-radius: 3x2%;
+    width: 1cm;
+    height: 1cm;
+}
